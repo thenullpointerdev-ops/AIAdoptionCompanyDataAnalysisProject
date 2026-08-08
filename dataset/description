@@ -100,11 +100,3 @@ customer_satisfaction: External satisfaction metric (1.0–10.0 scale).
 
 survey_source / data_collection_method: Provenance and capture methodology.
 
-Key Use Cases
-Predictive Modeling: Build machine learning models to forecast ROI (revenue_growth_percent, cost_reduction_percent) based on adoption stages and tool combinations.
-
-Longitudinal Trends: Track how AI tool preference (e.g., LLMs vs. Custom AI) shifted across sectors from 2023 through 2026.
-
-Workforce Dynamics: Analyze the net labor impact by comparing jobs_displaced, jobs_created, and reskilled_employees.
-
-Governance Analysis: Benchmark how ai_ethics_committee presence impacts project ai_failure_rate and regulatory_compliance_score.
