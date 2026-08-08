@@ -1,0 +1,110 @@
+AI Company Adoption Dataset
+
+The AI Company adoption dataset, its a global, multi-year dataset recording Artificial Intelligence 
+(AI) adoption trends, and business outcomes across thousands of organizational survey responses.
+
+-------------------------------------------------------------------------------------------------------
+Dataset Overview
+
+The dataset tracks longitudinal metrics across enterprise and startup environments to evaluate
+how organizations integrate AI technologies, manage risk, and observe returns on investment.
+
+-------------------------------------------------------------------------------------------------------
+
+Data Schema & Field Definitions
+
+The dataset consists of 43 feature columns categorized into five functional domains:
+
+1. Organizational Profile
+
+response_id: Unique identifier for each survey entry (1–150,000).
+
+company_id: Unique identifier for the organization.
+
+survey_year / quarter: Temporal tracking (2023–2026, Q1–Q4).
+
+country / region: Geographic location of the reporting entity.
+
+industry: Primary operating sector.
+
+company_size: Size tier (Startup, SME, Enterprise).
+
+num_employees: Total headcount.
+
+annual_revenue_usd_millions: Annual revenue in USD ($M).
+
+company_founding_year / company_age / company_age_group: Firm tenure metrics.
+
+
+2. AI Deployment & Usage
+  
+ai_adoption_rate: Percentage of internal processes leveraging AI tools.
+
+ai_adoption_stage: Current lifecycle phase (Evaluation, Pilot, Operational, Enterprise-Wide).
+
+years_using_ai: Cumulative years of AI implementation.
+
+ai_primary_tool: Core platform used (ChatGPT, Claude, Gemini, GitHub Copilot, Custom Internal AI, Other).
+
+num_ai_tools_used: Number of distinct AI tools deployed.
+
+ai_use_case: Primary application area (e.g., Customer Support, Software Development, HR Automation).
+
+ai_projects_active: Count of active AI initiatives.
+
+ai_training_hours: Hours of AI training provided per employee per year.
+
+
+3. Investment & Governance
+ai_budget_percentage: Proportion of overall IT budget allocated to AI.
+
+ai_maturity_score: Standardized rating of organizational AI readiness (0–100).
+
+ai_failure_rate: Rate of non-deployable or abandoned AI projects.
+
+ai_investment_per_employee: Direct investment per worker ($ USD).
+
+regulatory_compliance_score: Rating for compliance adherence.
+
+data_privacy_level: Assessment level (Low, Medium, High, Strict).
+
+ai_ethics_committee: Indicator of formal AI governance oversight (Yes / No).
+
+ai_risk_management_score: Rating of AI-specific risk mitigation practices.
+
+4. Workforce & Operational Impact
+remote_work_percentage: Share of workforce operating remotely.
+
+employee_satisfaction_score: Internal sentiment index (1.0–10.0 scale).
+
+task_automation_rate: Percentage of routine tasks automated.
+
+time_saved_per_week: Hours saved per employee per week.
+
+productivity_change_percent: Observed net productivity delta (%).
+
+jobs_displaced: Number of roles eliminated due to AI integration.
+
+jobs_created: New roles created due to AI adoption.
+
+reskilled_employees: Number of employees reskilled for AI workflows.
+
+5. Business & Financial Performance
+revenue_growth_percent: Year-over-year revenue growth (%).
+
+cost_reduction_percent: Operational expense reduction (%).
+
+innovation_score: Measured rate of product/service innovation.
+
+customer_satisfaction: External satisfaction metric (1.0–10.0 scale).
+
+survey_source / data_collection_method: Provenance and capture methodology.
+
+Key Use Cases
+Predictive Modeling: Build machine learning models to forecast ROI (revenue_growth_percent, cost_reduction_percent) based on adoption stages and tool combinations.
+
+Longitudinal Trends: Track how AI tool preference (e.g., LLMs vs. Custom AI) shifted across sectors from 2023 through 2026.
+
+Workforce Dynamics: Analyze the net labor impact by comparing jobs_displaced, jobs_created, and reskilled_employees.
+
+Governance Analysis: Benchmark how ai_ethics_committee presence impacts project ai_failure_rate and regulatory_compliance_score.
