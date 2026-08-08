@@ -1,5 +1,5 @@
 # AIAdoptionCompany
-Data Analytics Portfolio | SQL, Python, Excel &amp; Power BI | Data Cleaning, EDA, Visualization &amp; Business Insights
+Data Analytics Portfolio | SQL | EDA Visualization &amp; Business Insights
 
 
 # 📊 Data Analysis Portfolio
